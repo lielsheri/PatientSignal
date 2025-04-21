@@ -1,2 +1,3 @@
 # PatientSignal
-Medical Text Classification- From Self Description to Diagnosis
+
+**Diagnosing Through the Noise: Understanding Patient Self‑Descriptions**
