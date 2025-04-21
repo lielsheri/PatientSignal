@@ -27,4 +27,6 @@ In everyday conversation, patients often describe their symptoms with personal a
 | `text_medium_noise`       | Version with short, conversational noise                     |
 | `text_heavy_noise`        | Version with longer, anecdotal noise                         |
 
+## Authors  
+**Liel Sheri** & **Eden Mama**
 
