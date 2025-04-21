@@ -1,2 +1,2 @@
-# Natural-Language-Processing-project
+# PatientSignal
 Medical Text Classification- From Self Description to Diagnosis
