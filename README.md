@@ -3,7 +3,7 @@
 **Diagnosing Through the Noise: Understanding Patient Self‑Descriptions**
 
 ## Project Overview  
-In everyday conversation, patients often describe their symptoms with personal anecdotes, pauses and even unrelated details. PatientSignal shows how this “real-world noise” influences automated medical text classifiers. Starting with 1,200 clean symptom descriptions, we use a Ollama model to weave in two levels of natural speech patterns—brief chatter and longer anecdotes—then measure how well different algorithms cope.
+In everyday conversation, patients often describe their symptoms with personal anecdotes, pauses and even unrelated details. PatientSignal shows how this “real-world noise” influences automated medical text classifiers. Starting with 1,200 clean symptom descriptions, we use the Llama-3.1:8b model via Ollama to weave in two levels of natural speech patterns—brief chatter and longer anecdotes—then measure how well different algorithms cope.
 
 ## How It Works  
 1. **Prepare the Data**  
