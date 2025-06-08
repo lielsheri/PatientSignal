@@ -155,7 +155,7 @@ We would like to thank the following platforms and institutions for their suppor
 
 This project was developed as part of our final assignment for the *Natural Language Processing* course (Spring 2025).
 
-## 👥 **Team**
+## Team
 - **Liel Sheri**
 - **Eden Mama**
 
