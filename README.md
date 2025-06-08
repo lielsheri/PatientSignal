@@ -72,22 +72,14 @@ We ensured: No missing values, No duplicates, Label balance across all sets
 
 Final dataset breakdown:
 
-Type	Count
-Clean	1,200
-Medium Noise	1,200
-Heavy Noise	1,200
-Total	3,600
+| Type           | Count |
+|----------------|-------|
+| ✅ Clean          | 1,200 |
+| 🟠 Medium Noise   | 1,200 |
+| 🔴 Heavy Noise    | 1,200 |
+| **Total**      | **3,600** |
 
 
-We started with 1,200 **clean** symptom descriptions from a Kaggle dataset, each labeled with one of 24 diseases.
-To simulate real-world conversations, we generated two additional versions of each description using the Llama3.1:8b model via Ollama:
-- **Medium Noise** (80–220 words): Added friendly chatter, repetitions, and slight distractions.
-- **Heavy Noise** (150–390 words): Included longer personal anecdotes, hesitations, and more off-topic tangents.
-
-The result is a final dataset of 3,600 examples:
-- 1,200 clean
-- 1,200 with medium noise
-- 1,200 with heavy noise
 
 
 
