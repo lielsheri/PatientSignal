@@ -44,17 +44,16 @@ PatientSignal/
 │   ├── 📓 Noise_Generation.ipynb
 │   └── 📓 PatientSignal.ipynb
 └── 📖 README.md
+```
 
 ## Quick Start
-
 ### Clone the repository
 ```bash
 git clone https://github.com/lielsheri/PatientSignal.git
 cd PatientSignal
-
+```
 ### Install dependencies
 pip install -r requirements.txt
-
 ### Run the notebooks
 jupyter notebook notebooks/Noise_Generation.ipynb
 jupyter notebook notebooks/PatientSignal.ipynb
