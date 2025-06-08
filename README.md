@@ -122,15 +122,19 @@ These results highlight the importance of **choosing the right model** for real-
 ## References
 
 Our project was inspired and supported by recent works focused on clinical NLP, robustness to noise, and symptom-based disease prediction. Below are the main resources we relied on:
+
 **1. Optimizing Classification of Diseases Through Language Model Analysis of Symptoms** *(2024)*  
 Applied Medical Concept Normalization to BERT and used multiple optimizers (AdamP, AdamW) and BiLSTM with Hyperopt on the Symptom2Disease dataset.  
 🔗 [Read on Nature](https://www.nature.com/articles/s41598-024-51615-5.pdf)
+
 **2. DiagnoAI – Disease Prediction from Symptom Descriptions** *(2022)*  
 Manually generated 50 synthetic patient symptom descriptions per disease based on the Kaggle dataset. Fine-tuned all BERT layers using TensorFlow.  
 🔗 [GitHub Repository](https://github.com/FaizalKarim280280/DiagnoAI)
+
 **3. Deep Learning Models Are Not Robust Against Noise in Clinical Text** *(2021)*  
 Introduced controlled character- and word-level noise to evaluate transformers like ClinicalBERT, XLNet, and ELMo on tasks such as NER, Relation Extraction, and Semantic Similarity.  
 🔗 [Read on arXiv](https://arxiv.org/pdf/2108.12242)
+
 **4. Symptom-Based Disease Labeling Dataset**  
 Our primary dataset: 1,200 clean symptom descriptions labeled across 24 diseases.  
 🔗 [Kaggle Dataset](https://www.kaggle.com/datasets/krish0202/symptom-based-disease-labeling-dataset)
