@@ -3,7 +3,7 @@
 
 ## 📋 **Table of Contents**
 - [🧭 Overview](#overview)
-- [🖼️ Graphical Abstract](#graphical-abstract)
+- [🖼️ Visual Abstract](#graphical-abstract)
 - [🩺 Problem Statement](#problem-statement)
 - [🎓 Key Contributions](#key-contributions)
 - [🗂️ Project Structure](#project-structure)
@@ -20,7 +20,7 @@
 When patients talk to doctors, they often describe symptoms with lots of extra information-personal stories, pauses, and even unrelated topics.
 PatientSignal investigates how this natural way of speaking affects automated medical diagnosis systems. Using state-of-the-art AI (Llama3.1:8b), we generated realistic patient stories with varying levels of conversational noise, then tested different AI models to see how accurately they could diagnose illnesses from these noisy descriptions.
 
-## Graphical Abstract
+## Visual Abstract
 ![שקופית1 PNG](https://github.com/user-attachments/assets/d5e10271-3547-4dd3-a51d-669665b63dd7)
 
 ## Problem Statement
