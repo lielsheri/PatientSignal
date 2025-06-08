@@ -1,9 +1,28 @@
-# PatientSignal: LLM‑Augmented Medical Text Classifier
+# 🩺 PatientSignal: Diagnosing Diseases Through Noisy Patient Descriptions
+**Understanding how real-world conversations affect automated medical diagnosis**
 
-**Diagnosing Through the Noise: Understanding Patient Self‑Descriptions**
+## 📋 **Table of Contents**
+- [🎯 Overview](#overview)
+- [🖼️ Graphical Abstract](#graphical-abstract)
+- [🎪 Problem Statement](#problem-statement)
+- [🏆 Key Contributions](#key-contributions)
+- [👥 Team](#team)
+- [📦 Project Structure](#project-structure)
+- [🚀 Quick Start](#quick-start)
+- [🏥 Dataset](#dataset)
+- [🔧 Data Preparation](#data-preparation)
+- [🧠 Models & Methodology](#models--methodology)
+- [📈 Results](#results)
+- [💡 Insights](#insights)
+- [🔬 References](#references)
+- [🙏 Acknowledgments](#acknowledgments)
 
-## Project Overview  
-In everyday conversation, patients often describe their symptoms with personal anecdotes, pauses and even unrelated details. PatientSignal shows how this “real-world noise” influences automated medical text classifiers. Starting with 1,200 clean symptom descriptions, we use the Llama-3.1:8b model via Ollama to weave in two levels of natural speech patterns—brief chatter and longer anecdotes—then measure how well different algorithms cope.
+## overview  
+When patients talk to doctors, they often describe symptoms with lots of extra information—personal stories, pauses, and even unrelated topics.
+PatientSignal investigates how this natural way of speaking affects automated medical diagnosis systems. Using state-of-the-art AI (Llama3.1:8b), we generated realistic patient stories with varying levels of conversational noise, then tested different AI models to see how accurately they could diagnose illnesses from these noisy descriptions.
+
+## Graphical Abstract
+![שקופית1 PNG](https://github.com/user-attachments/assets/d5e10271-3547-4dd3-a51d-669665b63dd7)
 
 ## How It Works  
 1. **Prepare the Data**  
