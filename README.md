@@ -119,6 +119,24 @@ The table below shows how each model performed on clean vs. noisy data. As expec
 
 These results highlight the importance of **choosing the right model** for real-world applications where patient descriptions are often messy, anecdotal, or unclear.
 
+## References
+We based our approach and evaluation on previous work in clinical NLP and noisy text classification. Notable references include:
+
+- **Deep learning models are not robust against noise in clinical text**  
+  *(2021)*  
+  Explored how small character/word-level perturbations in clinical documents reduce model performance.  
+  [PDF Link](https://arxiv.org/pdf/2108.12242)
+
+- **Optimizing classification of diseases through language model analysis of symptoms**  
+  *(DiagnoAI, 2022)*  
+  Used synthetic patient symptom data based on Kaggle lists, fine-tuned BERT with different optimizers, and measured accuracy on medical classification.  
+  [GitHub Repo](https://github.com/FaizalKarim280280/DiagnoAI)  
+  [Full Article](https://www.nature.com/articles/s41598-024-51615-5.pdf)
+
+- **Symptom-Based Disease Labeling Dataset**  
+  *(Kaggle)*  
+  The dataset we used for all experiments.  
+  [Kaggle Dataset Page](https://www.kaggle.com/datasets/krish0202/symptom-based-disease-labeling-dataset)
 
 
 
