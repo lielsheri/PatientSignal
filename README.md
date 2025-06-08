@@ -111,10 +111,15 @@ The table below shows how each model performed on clean vs. noisy data. As expec
 | **FLAN-T5**    | 97.1%              | **92.5%**        | **87.1%**       |
 
 ### Insights 
+
 - **Conversational noise affects model accuracy**: As expected, all models showed a decline in performance when exposed to noisier, more human-like symptom descriptions.
+  
 - **Naïve Bayes struggled the most**: As a simple, keyword-based model, it experienced the sharpest accuracy drop under noise and lacks the contextual understanding needed to handle distractions.
+  
 - **BERT led on clean data**, but its accuracy dropped more sharply under heavy noise compared to ClinicalBERT and FLAN-T5.
+  
 - **ClinicalBERT showed an interesting pattern**: After dropping on medium-noise data, it improved on heavy-noise inputs. This might be due to repeated clinical terms in longer texts, which help its clinical training kick in.
+  
 - **FLAN-T5 was the most robust overall**, outperforming all models on both medium and heavy noise. Its instruction-tuned nature likely helped it adapt to varied sentence structures and linguistic distractions.
 
 These results highlight the importance of **choosing the right model** for real-world applications where patient descriptions are often messy, anecdotal, or unclear.
