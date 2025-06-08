@@ -2,20 +2,20 @@
 **Understanding how real-world conversations affect automated medical diagnosis**
 
 ## 📋 **Table of Contents**
-- [🎯 Overview](#overview)
+- [🧭 Overview](#overview)
 - [🖼️ Graphical Abstract](#graphical-abstract)
-- [🎪 Problem Statement](#problem-statement)
-- [🏆 Key Contributions](#key-contributions)
-- [📦 Project Structure](#project-structure)
-- [🚀 Quick Start](#quick-start)
-- [🏥 Dataset](#dataset)
-- [🔧 Data Preparation](#data-preparation)
+- [🩺 Problem Statement](#problem-statement)
+- [🎓 Key Contributions](#key-contributions)
+- [🗂️ Project Structure](#project-structure)
+- [⚙️ Quick Start](#quick-start)
+- [🧾 Dataset](#dataset)
+- [🧹 Data Preparation](#data-preparation)
 - [🧠 Models & Methodology](#models--methodology)
-- [📈 Results](#results)
+- [📊 Results](#results)
 - [💡 Insights](#insights)
-- [🔬 References](#references)
-- [🙏 Acknowledgments](#acknowledgments)
-- [👥 Team](#team)
+- [📚 References](#references)
+- [🙌 Acknowledgments](#acknowledgments)
+- [👩‍💻 Team](#team)
 
 ## overview  
 When patients talk to doctors, they often describe symptoms with lots of extra information-personal stories, pauses, and even unrelated topics.
