@@ -120,23 +120,22 @@ The table below shows how each model performed on clean vs. noisy data. As expec
 These results highlight the importance of **choosing the right model** for real-world applications where patient descriptions are often messy, anecdotal, or unclear.
 
 ## References
-We based our approach and evaluation on previous work in clinical NLP and noisy text classification. Notable references include:
 
-- **Deep learning models are not robust against noise in clinical text**  
-  *(2021)*  
-  Explored how small character/word-level perturbations in clinical documents reduce model performance.  
-  [PDF Link](https://arxiv.org/pdf/2108.12242)
+Our project was inspired and supported by recent works focused on clinical NLP, robustness to noise, and symptom-based disease prediction. Below are the main resources we relied on:
 
-- **Optimizing classification of diseases through language model analysis of symptoms**  
-  *(DiagnoAI, 2022)*  
-  Used synthetic patient symptom data based on Kaggle lists, fine-tuned BERT with different optimizers, and measured accuracy on medical classification.  
-  [GitHub Repo](https://github.com/FaizalKarim280280/DiagnoAI)  
-  [Full Article](https://www.nature.com/articles/s41598-024-51615-5.pdf)
+- 📄 **Symptom-Based Disease Labeling Dataset**  
+  The original dataset we used for all experiments, containing 1,200 clean symptom descriptions labeled into 24 disease categories.  
+  [Kaggle Dataset](https://www.kaggle.com/datasets/krish0202/symptom-based-disease-labeling-dataset)
 
-- **Symptom-Based Disease Labeling Dataset**  
-  *(Kaggle)*  
-  The dataset we used for all experiments.  
-  [Kaggle Dataset Page](https://www.kaggle.com/datasets/krish0202/symptom-based-disease-labeling-dataset)
+- 📄 **Deep learning models are not robust against noise in clinical text** *(2021)*  
+  Introduced controlled noise (character/word-level) into clinical data and evaluated transformers like ClinicalBERT, XLNet, and ELMo across tasks like NER, RE, TI, and semantic similarity. Showed clear performance degradation even under small noise.  
+  [arXiv PDF](https://arxiv.org/pdf/2108.12242)
+
+- 📄 **Optimizing classification of diseases through language model analysis of symptoms** *(2024)*  
+  Created a synthetic dataset based on the same Kaggle source, generating 50 patient descriptions per disease.  
+  Compared BERT variants and BiLSTM using AdamP, AdamW, and Hyperopt.  
+  [Nature Article](https://www.nature.com/articles/s41598-024-51615-5.pdf)  
+  [GitHub Repository – DiagnoAI](https://github.com/FaizalKarim280280/DiagnoAI)
 
 
 
