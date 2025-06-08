@@ -63,7 +63,22 @@ pip install -r requirements.txt
 - **Original size**: 1,200 clean symptom descriptions across 24 disease categories.
 - **The original dataset includes**: Concise, clinical-like descriptions written in plain text and A balanced distribution of disease labels.
 
-## 🔧 Data Preparation
+## Data Preparation
+To better simulate real-life patient-doctor interactions, we created two additional noisy versions for each of the 1,200 original samples using Llama3.1:8b via Ollama.
+* 🟠Medium Noise (80–220 words): Includes natural-sounding distractions like repetitions, off-topic comments, or emotional reactions.
+* 🔴 Heavy Noise (150–390 words): Contains longer personal stories, hesitations, unrelated memories, and more chaotic flow of thought.
+
+We ensured: No missing values, No duplicates, Label balance across all sets
+
+Final dataset breakdown:
+
+Type	Count
+Clean	1,200
+Medium Noise	1,200
+Heavy Noise	1,200
+Total	3,600
+
+
 We started with 1,200 **clean** symptom descriptions from a Kaggle dataset, each labeled with one of 24 diseases.
 To simulate real-world conversations, we generated two additional versions of each description using the Llama3.1:8b model via Ollama:
 - **Medium Noise** (80–220 words): Added friendly chatter, repetitions, and slight distractions.
