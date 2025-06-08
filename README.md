@@ -14,7 +14,6 @@
 - [📊 Results](#results)
 - [💡 Insights](#insights)
 - [📚 References](#references)
-- [🙌 Acknowledgments](#acknowledgments)
 - [👩‍💻 Team](#team)
 
 ## overview  
@@ -143,17 +142,6 @@ Introduced controlled character- and word-level noise to evaluate transformers l
 **4. Symptom-Based Disease Labeling Dataset**  
 Our primary dataset: 1,200 clean symptom descriptions labeled across 24 diseases.  
 🔗 [Kaggle Dataset](https://www.kaggle.com/datasets/krish0202/symptom-based-disease-labeling-dataset)
-
-## Acknowledgments
-
-We would like to thank the following platforms and institutions for their support throughout this project:
-
-- **Kaggle** – for providing the original Symptom-Based Disease Labeling Dataset.
-- **Google Colab** – for enabling us to run large language models (like Llama3.1:8b via Ollama) efficiently in the cloud.
-- **Holon Institute of Technology (HIT)** – for academic support and project supervision as part of our coursework.
-- **Our course instructor** – for helpful feedback, project milestones, and guidance during the semester.
-
-This project was developed as part of our final assignment for the *Natural Language Processing* course (Spring 2025).
 
 ## Team
 - **Liel Sheri**
