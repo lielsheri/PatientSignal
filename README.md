@@ -70,8 +70,9 @@ jupyter notebook notebooks/PatientSignal.ipynb
 
 
 ## 👥 **Team**
-- **Eden Mama**
 - **Liel Sheri**
+- **Eden Mama**
+
   
 
 
