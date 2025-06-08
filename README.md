@@ -3,7 +3,7 @@
 
 ## 📋 **Table of Contents**
 - [🧭 Overview](#overview)
-- [🖼️ Visual Abstract](#graphical-abstract)
+- [🖼️ Visual Abstract](#Visual-abstract)
 - [🩺 Problem Statement](#problem-statement)
 - [🎓 Key Contributions](#key-contributions)
 - [🗂️ Project Structure](#project-structure)
