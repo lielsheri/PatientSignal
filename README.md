@@ -6,7 +6,6 @@
 - [🖼️ Graphical Abstract](#graphical-abstract)
 - [🎪 Problem Statement](#problem-statement)
 - [🏆 Key Contributions](#key-contributions)
-- [👥 Team](#team)
 - [📦 Project Structure](#project-structure)
 - [🚀 Quick Start](#quick-start)
 - [🏥 Dataset](#dataset)
@@ -16,36 +15,67 @@
 - [💡 Insights](#insights)
 - [🔬 References](#references)
 - [🙏 Acknowledgments](#acknowledgments)
+- [👥 Team](#team)
 
 ## overview  
-When patients talk to doctors, they often describe symptoms with lots of extra information—personal stories, pauses, and even unrelated topics.
+When patients talk to doctors, they often describe symptoms with lots of extra information-personal stories, pauses, and even unrelated topics.
 PatientSignal investigates how this natural way of speaking affects automated medical diagnosis systems. Using state-of-the-art AI (Llama3.1:8b), we generated realistic patient stories with varying levels of conversational noise, then tested different AI models to see how accurately they could diagnose illnesses from these noisy descriptions.
 
 ## Graphical Abstract
 ![שקופית1 PNG](https://github.com/user-attachments/assets/d5e10271-3547-4dd3-a51d-669665b63dd7)
 
-## How It Works  
-1. **Prepare the Data**  
-   We load and clean `Train_data.csv` from "https://www.kaggle.com/datasets/krish0202/symptom-based-disease-labeling-dataset?resource=download", removing duplicates and filling any gaps to ensure a solid baseline.  
+## Problem Statement
+- **Input**: Patient descriptions (clean/noisy).
+- **Output**: Disease classification (24 categories).
+- **Challenge**: Maintaining diagnostic accuracy despite conversational distractions.
 
-2. **Add Human-Like Noise**  
-   A carefully crafted prompt guides `llama3.1:8b` to generate:  
-   - **Medium noise** (80-220 words of friendly small talk)  
-   - **Heavy noise** (150-390 words of richer, more detailed storytelling)  
+## Key Contributions
+- **Novel Noise Simulation**: Realistic symptom descriptions using Llama3.1.
+- **Robustness Testing**: Performance benchmarking across noise levels.
+- **Model Evaluation**: Comprehensive analysis across multiple state-of-the-art models.
 
-3. **Compare Classifiers**  
-   We train Naïve Bayes and BERT, on both clean and noisy versions of the data. By comparing accuracy, we reveal which methods are most resilient to real‑world patient language.
+## Project Structure
+```bash
+PatientSignal/
+├── 📂 data/
+│   ├── 📄 Train_data.csv
+│   └── 📄 Train_data_with_noise2.csv
+├── 📂 notebooks/
+│   ├── 📓 Noise_Generation.ipynb
+│   └── 📓 PatientSignal.ipynb
+└── 📖 README.md
 
-## Dataset at a Glance  
+## Quick Start
 
-| Field                     | What It Means                                                |
-|---------------------------|--------------------------------------------------------------|
-| `id`                      | A unique identifier for each example                         |
-| `label`                   | The correct diagnosis (e.g., Psoriasis, Eczema)              |
-| `text`                    | The original, clean symptom description                      |
-| `text_medium_noise`       | Version with short, conversational noise                     |
-| `text_heavy_noise`        | Version with longer, anecdotal noise                         |
+### Clone the repository
+```bash
+git clone https://github.com/lielsheri/PatientSignal.git
+cd PatientSignal
 
-## Authors  
-**Liel Sheri** & **Eden Mama**
+### Install dependencies
+pip install -r requirements.txt
+
+### Run the notebooks
+jupyter notebook notebooks/Noise_Generation.ipynb
+jupyter notebook notebooks/PatientSignal.ipynb
+
+
+
+
+
+
+
+
+
+
+
+
+## 👥 **Team**
+- **Eden Mama**
+- **Liel Sheri**
+  
+
+
+
+
 
